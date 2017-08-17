@@ -1,9 +1,9 @@
 def main():
     score = get_score()
-    print(sort_score(score))
+    print(determine_grade(score))
 
 
-def sort_score(score):
+def determine_grade(score):
     if score < 0 or score > 100:
         final_grade = "Invalid score"
     elif score < 50:
