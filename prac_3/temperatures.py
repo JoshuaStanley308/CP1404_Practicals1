@@ -14,7 +14,7 @@ Q - Quit"""
         if choice == "C":
             celsius = F_to_C()
         elif choice == "F":
-            C_to_F(celsius)
+            print("Result: {:.2f} C".format(C_to_F(celsius)))
         else:
             print("Invalid option")
         print(MENU)
@@ -25,7 +25,7 @@ Q - Quit"""
 def C_to_F(celsius):
     fahrenheit = float(input("Fahrenheit: "))
     celsius = 5 / 9 * (fahrenheit - 32)
-    print("Result: {:.2f} C".format(celsius))
+    return celsius
 
 
 def F_to_C():
