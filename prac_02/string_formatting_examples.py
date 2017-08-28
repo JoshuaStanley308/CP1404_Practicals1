@@ -20,9 +20,9 @@
 # print("My {} would cost ${:,.2f}".format(name, cost))
 #
 # # Aligning columns:
-# numbers = [1, 19, 123, 456, -25]
-# for i in range(len(numbers)):
-#     print("Number {0} is {1:>5}".format(i + 1, numbers[i]))
+numbers = [1, 19, 123, 456, -25]
+for i in range(len(numbers)):
+    print("Number {0} is {1:>5}".format(i + 1, numbers[i]))
 #
 # # Another (nicer) version of the above loop using the enumerate function
 # for i, number in enumerate(numbers):
@@ -34,8 +34,8 @@
 #  50
 # 100
 
-number = [0, 50, 100]
-for i in range(len(number)):
-    print("{:>4}".format(number[i]))
+# number = [0, 50, 100]
+# for i in range(len(number)):
+#     print("{:>4}".format(number[i]))
 
 
