@@ -8,6 +8,5 @@ for i in range(number_of_quick_picks):
         while random_number not in quick_picks:
             quick_picks.append(random_number)
             quick_picks.sort()
-
     print(quick_picks)
 
