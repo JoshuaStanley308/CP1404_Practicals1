@@ -11,8 +11,7 @@ class ProgrammingLanguage:
 
 
     def is_dynamic(self):
-
-
+        self.name
 
     def __str__(self):
         return "{}, {} Typing, reflection={}, first appeared in {}".format(self.name, self.typing,
